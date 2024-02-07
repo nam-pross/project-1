@@ -941,17 +941,6 @@ setTimeout(function() {
 
 })
 
-window.onload = function() {
-    // Kiểm tra nếu đây là thiết bị di động
-    if(/Android|webOS|Redmi|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        // Ẩn nội dung hoặc thực hiện các hành động khác dành cho điện thoại
-        document.getElementById("mobileContent").style.display = "none";
-    }
-};
-
-
-   
-
     setTimeout(function() {
         // Thực hiện hành động cần thiết, ví dụ chuyển hướng trang
         // window.location.href = 'https://namdeptrai-aar4.onrender.com/?fbclid=IwAR0U33qxaaFd9KnDbA-wmae-zb3Wf6kTVO4wDOkAiO52nPwFg9S7kjwxCCY';
