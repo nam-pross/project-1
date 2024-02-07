@@ -943,7 +943,7 @@ setTimeout(function() {
 
 window.onload = function() {
     // Kiểm tra nếu đây là thiết bị di động
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    if(/Android|webOS|Redmi|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         // Ẩn nội dung hoặc thực hiện các hành động khác dành cho điện thoại
         document.getElementById("mobileContent").style.display = "none";
     }
