@@ -347,15 +347,3 @@ color: white;
   .fade-out {
     opacity: 0;
   }
-
-    /* Ẩn nội dung trên điện thoại */
-    .desktop-only {
-      display: block;
-  }
-  .mobile-only {
-      display: none;
-  }
-
-  .block-audio {
-    display: none;
-}

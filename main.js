@@ -941,23 +941,13 @@ setTimeout(function() {
 
 })
 
-  // Kiểm tra kích thước màn hình để ẩn hoặc hiển thị nội dung
-  function checkDeviceType() {
-    var desktopContent = document.getElementById('desktopContent');
-    var mobileContent = document.getElementById('mobileContent');
-    if (window.innerWidth <= 600) { // Nếu độ rộng màn hình nhỏ hơn hoặc bằng 600px (giả sử điện thoại)
-        desktopContent.style.display = 'none'; // Ẩn nội dung cho máy tính
-        mobileContent.style.display = 'block'; // Hiển thị nội dung cho điện thoại
-    } else { // Nếu độ rộng màn hình lớn hơn 600px (giả sử máy tính)
-        desktopContent.style.display = 'block'; // Hiển thị nội dung cho máy tính
-        mobileContent.style.display = 'none'; // Ẩn nội dung cho điện thoại
+window.onload = function() {
+    // Kiểm tra nếu đây là thiết bị di động
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // Ẩn nội dung hoặc thực hiện các hành động khác dành cho điện thoại
+        document.getElementById("mobileContent").style.display = "none";
     }
-}
-
-// Gọi hàm kiểm tra khi tải trang và khi cửa sổ thay đổi kích thước
-window.onload = checkDeviceType;
-window.onresize = checkDeviceType;
-
+};
 
 
    
