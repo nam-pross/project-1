@@ -780,7 +780,7 @@ $(function () {
             ctx.fillRect(light.x - light.radius, light.y - light.radius, light.radius * 2, light.radius * 2);
         }
 
-        // supprise: HAPPY LUNAR NEW YEAR 2017!
+        // supprise: HAPPY LUNAR NEW YEAR 2024!
         for (var i = 0; i < listText.length; i++) {
             var text = listText[i];
             ctx.globalAlpha = text.alpha;
@@ -795,52 +795,181 @@ $(function () {
         // biến mất 1
       setTimeout(function() {
         document.querySelector('.hidden-text').classList.add('fade-out');
-      }, 3000);
+      }, 5000);
 
 
          //   xuất hiện 2
     setTimeout(function() {
         document.querySelector('.text2').classList.add('fade-in');
-      }, 5000);
+      }, 6000);
         // biến mất 2
       setTimeout(function() {
         document.querySelector('.text2').classList.add('fade-out');
-      }, 19000);
+      }, 10000);
 
-    //   chữ chạy lần lượt
-    let textElement = document.getElementById('text');
-    let textContent = textElement.textContent.split(' ');
-    let currentIndex = 0;
+   // Mã JavaScript để chạy từng từ lần lượt và thay đổi màu sang màu vàng
+   let textElement = document.getElementById('text');
+   let textContent = textElement.textContent.split(' ');
+   let currentIndex = 0;
 
-    function runBrightAnimation() {
-      if (currentIndex < textContent.length) {
-        textElement.innerHTML = '';
+   function runBrightAnimation() {
+       if (currentIndex < textContent.length) {
+           textElement.innerHTML = '';
 
-        for (let i = 0; i < currentIndex + 1; i++) {
-          let brightWord = (i === currentIndex) ?
-            `<span style="color: yellow;">${textContent[i]}</span>` :
-            textContent[i];
+           for (let i = 0; i < currentIndex + 1; i++) {
+               let brightWord = (i === currentIndex) ?
+                   `<span style="color: yellow;">${textContent[i]}</span>` :
+                   textContent[i];
 
-          textElement.innerHTML += brightWord + ' ';
-        }
+               textElement.innerHTML += brightWord + ' ';
+           }
 
-        currentIndex++;
+           currentIndex++;
 
-        // Thời gian chờ giữa các từ (điều chỉnh theo ý muốn)
-        setTimeout(runBrightAnimation, 200);
-      }
+           // Thời gian chờ giữa các từ (điều chỉnh theo ý muốn)
+           setTimeout(runBrightAnimation, 150);
+       }
+   }
+
+   // Khởi chạy hàm khi tài liệu được tải hoàn toàn
+   document.addEventListener('DOMContentLoaded', function () {
+       runBrightAnimation();
+   });
+
+
+    // xuất hiên 4
+
+setTimeout(function() {
+    document.querySelector('.text7').classList.add('fade-in');
+  }, 10500);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.text7').classList.add('fade-out');
+  }, 43000);
+
+//   xuất hiên 5
+
+  setTimeout(function() {
+    document.querySelector('.text4').classList.add('fade-in');
+  }, 21000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.text4').classList.add('fade-out');
+  }, 43000);
+
+
+// xuất hiện 6
+  setTimeout(function() {
+    document.querySelector('.text5').classList.add('fade-in');
+  }, 31000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.text5').classList.add('fade-out');
+  }, 43000);
+
+
+  // xuất hiện 6
+  setTimeout(function() {
+    document.querySelector('.text6').classList.add('fade-in');
+  }, 44000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.text6').classList.add('fade-out');
+  }, 48000);
+
+  setTimeout(function() {
+    document.querySelector('.anh11').classList.add('fade-in');
+  }, 45000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh11').classList.add('fade-out');
+  }, 56000);
+
+// anh22
+  setTimeout(function() {
+    document.querySelector('.anh22').classList.add('fade-in');
+  }, 48000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh22').classList.add('fade-out');
+  }, 56000);
+
+  // anh33
+  setTimeout(function() {
+    document.querySelector('.anh33').classList.add('fade-in');
+  }, 50000);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh33').classList.add('fade-out');
+  }, 56000);
+
+    // anh44
+    setTimeout(function() {
+    document.querySelector('.anh44').classList.add('fade-in');
+  }, 51200);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh44').classList.add('fade-out');
+  }, 56000);
+
+    // anh55
+    setTimeout(function() {
+    document.querySelector('.anh55').classList.add('fade-in');
+  }, 52200);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh55').classList.add('fade-out');
+  }, 56000);
+
+     // anh66
+     setTimeout(function() {
+    document.querySelector('.anh66').classList.add('fade-in');
+  }, 53400);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.anh66').classList.add('fade-out');
+  }, 56000);
+
+      // text10
+      setTimeout(function() {
+    document.querySelector('.text10').classList.add('fade-in');
+  }, 53400);
+    // biến mất 2
+  setTimeout(function() {
+    document.querySelector('.text10').classList.add('fade-out');
+  }, 54600);
+
+})
+
+  // Kiểm tra kích thước màn hình để ẩn hoặc hiển thị nội dung
+  function checkDeviceType() {
+    var desktopContent = document.getElementById('desktopContent');
+    var mobileContent = document.getElementById('mobileContent');
+    if (window.innerWidth <= 600) { // Nếu độ rộng màn hình nhỏ hơn hoặc bằng 600px (giả sử điện thoại)
+        desktopContent.style.display = 'none'; // Ẩn nội dung cho máy tính
+        mobileContent.style.display = 'block'; // Hiển thị nội dung cho điện thoại
+    } else { // Nếu độ rộng màn hình lớn hơn 600px (giả sử máy tính)
+        desktopContent.style.display = 'block'; // Hiển thị nội dung cho máy tính
+        mobileContent.style.display = 'none'; // Ẩn nội dung cho điện thoại
     }
+}
 
-    // Chạy hàm chạy sáng sau khi trang được tải
-    window.onload = function() {
-      runBrightAnimation();
-    };
+// Gọi hàm kiểm tra khi tải trang và khi cửa sổ thay đổi kích thước
+window.onload = checkDeviceType;
+window.onresize = checkDeviceType;
+
+
+
+   
 
     setTimeout(function() {
         // Thực hiện hành động cần thiết, ví dụ chuyển hướng trang
-        // window.location.href = 'https://example.com';
+        // window.location.href = 'https://namdeptrai-aar4.onrender.com/?fbclid=IwAR0U33qxaaFd9KnDbA-wmae-zb3Wf6kTVO4wDOkAiO52nPwFg9S7kjwxCCY';
         
         // Hoặc đơn giản là đóng trang
         window.close();
-      }, 20000);
-})
+      }, 55000);
+
+
+
+    

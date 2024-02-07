@@ -103,7 +103,255 @@ p.fixed span {
   }
 
   .text3{
-    color: white;
+    color: pink;
     text-align: center;
     font-size: 90px;
+  }
+
+
+  .one{
+    color:white;
+    font-size: 23px;
+    position:absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.two{
+    text-align: left;
+    color:white;
+    position:absolute;
+    font-size: 23px;
+    top: 220px;
+    left: 860px;
+}
+
+.three{
+    text-align: left;
+    color:white;
+    position:absolute;
+    font-size: 23px;
+    top: 440px;
+    left: 360px;
+}
+
+.text7 {
+    text-align: left;
+    color:white;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .text4 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .text5 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .text6 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .bright-text {
+    font-size: 80px;
+    line-height: 1.5;
+    letter-spacing: 4.5px;
+    font-weight: bold;
+  }
+
+  .anh1{
+    position:absolute;
+    top:200px;
+    left:600px;
+}
+
+.anh2{
+    position:absolute;
+    top:190px;
+    left:400px;
+}
+
+.anh3{
+    position:absolute;
+    top:130px;
+    left:700px;
+}
+
+.anh4{
+    position:absolute;
+    top:450px;
+    left:500px;
+}
+
+.anh5{
+    position:absolute;
+    top:150px;
+    left:470px;
+}
+
+.anh6{
+    position:absolute;
+    top:230px;
+    left:380px;
+}
+
+.anh7{
+    position:absolute;
+    top:230px;
+    left:500px;
+}
+
+.anh11 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .anh22 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  
+  .anh33 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .anh44 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .anh55 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .anh66{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+  .text10{
+position:absolute;
+top:650px;
+left:30px;
+color: white;
+  }
+
+  .text10{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  /* Áp dụng hiệu ứng fadeIn với transition */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+
+    /* Ẩn nội dung trên điện thoại */
+    .desktop-only {
+      display: block;
+  }
+  .mobile-only {
+      display: none;
   }
