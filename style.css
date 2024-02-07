@@ -355,3 +355,7 @@ color: white;
   .mobile-only {
       display: none;
   }
+
+  .block-audio {
+    display: none;
+}

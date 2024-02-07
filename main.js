@@ -937,7 +937,7 @@ setTimeout(function() {
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.text10').classList.add('fade-out');
-  }, 54600);
+  }, 55000);
 
 })
 
@@ -968,7 +968,7 @@ window.onresize = checkDeviceType;
         
         // Hoặc đơn giản là đóng trang
         window.close();
-      }, 55000);
+      }, 57000);
 
 
 
