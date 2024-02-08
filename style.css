@@ -328,8 +328,9 @@ p.fixed span {
   }
 
   .text10{
+    font-size: 10px;
 position:absolute;
-top:650px;
+top:640px;
 left:30px;
 color: white;
   }

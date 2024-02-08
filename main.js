@@ -897,7 +897,7 @@ setTimeout(function() {
   // anh33
   setTimeout(function() {
     document.querySelector('.anh33').classList.add('fade-in');
-  }, 50000);
+  }, 49000);
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.anh33').classList.add('fade-out');
@@ -906,7 +906,7 @@ setTimeout(function() {
     // anh44
     setTimeout(function() {
     document.querySelector('.anh44').classList.add('fade-in');
-  }, 51200);
+  }, 50000);
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.anh44').classList.add('fade-out');
@@ -915,7 +915,7 @@ setTimeout(function() {
     // anh55
     setTimeout(function() {
     document.querySelector('.anh55').classList.add('fade-in');
-  }, 52200);
+  }, 51000);
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.anh55').classList.add('fade-out');
@@ -924,7 +924,7 @@ setTimeout(function() {
      // anh66
      setTimeout(function() {
     document.querySelector('.anh66').classList.add('fade-in');
-  }, 53400);
+  }, 52000);
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.anh66').classList.add('fade-out');
@@ -933,7 +933,7 @@ setTimeout(function() {
       // text10
       setTimeout(function() {
     document.querySelector('.text10').classList.add('fade-in');
-  }, 53400);
+  }, 51000);
     // biến mất 2
   setTimeout(function() {
     document.querySelector('.text10').classList.add('fade-out');
@@ -947,7 +947,7 @@ setTimeout(function() {
         
         // Hoặc đơn giản là đóng trang
         window.close();
-      }, 57000);
+      }, 54000);
 
 
 
